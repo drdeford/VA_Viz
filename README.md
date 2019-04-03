@@ -24,15 +24,12 @@ The metrics are separated into three main categories:
 3. **District statistics**
 
    The statistics presented at the district level are arranged into rows of k comma separated values, where k is the number of districts in the plan (11 for Congress and 40 for the Senate). The values in each entry for the election data are the expected percentage of Democratic vote share in each district while the values in the population files are the number of individuals who live in each district
-  1. Elections
-    * **ATG17**: 2017 Attorney General Election
-    * **LTG17**: 2017 Lieutenant Governor Election
-    * **GOV18**: 2018 Gubenatorial Election
-    * **PRS16**: 2016 Presidential Election
-    * **SEN18**: 2018 Senatorial Election
-
-  2. Population
-    * **pop**: Population of each district in the plan
+  * **ATG17**: 2017 Attorney General Election
+  * **LTG17**: 2017 Lieutenant Governor Election
+  * **GOV18**: 2018 Gubenatorial Election
+  * **PRS16**: 2016 Presidential Election
+  * **SEN18**: 2018 Senatorial Election
+  * **pop**: Population of each district in the plan
 
 
 In addition to the metrics, there are also assignment files which are .json dictionaries mapping the precinct labels to their district number for each snapshot of the ensemble and a collection of .pngs showing colorful maps of the snapshot plans. 
