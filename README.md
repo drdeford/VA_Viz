@@ -1,5 +1,4 @@
 # VA_Viz
-Visualization Data for MCMC runs on VA precincts
 
 This repo contains a small snapshot of ensemble data for the state of Virginia for testing visualization techniques. There are two 100k step ensembles presented here, one each for Congressional districts (11) and state Senate districts (40). For each ensemble we have recorded a variety of metrics for each plan, described in more detail below. The ensembles were generated with the GerryChain software: <github.com/mggg/gerrychain> using a script similar to VA_Examples.py. VA_boxes.py and science_plots_VA.py provide examples of parsing scripts for the data.  
 
@@ -9,7 +8,7 @@ The metrics are separated into three main categories:
 
 1. Global plan metrics
 
-   These statistics are properties of the entire plan at once. Each file contains a comma separated list of values
+   These statistics are properties of the entire plan at once. Each file contains a comma separated list of values describing the property of the current plan in the ensemble. 
 
   * cuts: Number of cut edges between the districts in the current plan
   * splits: Number of localities (county equivalents) that are split by the districting plan
