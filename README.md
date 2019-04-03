@@ -32,5 +32,5 @@ The metrics are separated into three main categories:
   * **pop**: Population of each district in the plan
 
 
-In addition to the metrics, there are also assignment files which are .json dictionaries mapping the precinct labels to their district number for each snapshot of the ensemble and a collection of .pngs showing colorful maps of the snapshot plans. 
+In addition to the metrics, there are also **assignment** files which are .json dictionaries mapping the precinct labels to their district number for each snapshot of the ensemble and a collection of **.pngs** showing colorful maps of the snapshot plans. 
 
